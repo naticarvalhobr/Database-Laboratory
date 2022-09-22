@@ -99,7 +99,7 @@ FROM
 WHERE
     ano = 2021;  
 
-/* (D) Crie uma consulta que mostre todos os alunos de Brasília que cursam alguma disciplina de Banco de Dados no ano de 2021. */
+/* (D) Crie uma consulta que mostre todos os alunos de Brasília que cursam alguma disciplina no ano de 2021. */
 SELECT 
     aluno.nome, 
     aluno.cidade,
