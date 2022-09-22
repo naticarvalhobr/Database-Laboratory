@@ -124,5 +124,3 @@ FROM
 	professor_disciplina ON professor.prof_ID = professor_disciplina.prof_ID
 		INNER JOIN
     disciplina ON professor_disciplina.disc_ID = disciplina.disc_ID group by nome;
-
-
